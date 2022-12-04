@@ -20,7 +20,7 @@ namespace Cleopatra.Core {
     /**
      *  InternetAddress Interface
      *
-     *  
+     *  This holds an Internet Address common interface.
      */
     public interface InternetAddress : Object, Serializable<string> {
         public abstract unowned string? get_name();
