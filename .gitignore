@@ -1,0 +1,5 @@
+# Gitignores
+
+# Subprojects:
+# - gmime-3.0
+subprojects/gmime-3.0/
