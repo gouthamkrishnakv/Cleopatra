@@ -1,1 +1,0 @@
-[{"cmd": ["/home/goutham/Projects/Personal/Cleopatra/debug/tests/cleopatra_test"], "env": {}, "name": "cleopatra", "workdir": null, "timeout": 30, "suite": ["Cleopatra"], "is_parallel": true, "priority": 0, "protocol": "exitcode", "depends": ["59830eb@@cleopatra_test@exe"]}]
