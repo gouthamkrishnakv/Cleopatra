@@ -1,0 +1,44 @@
+[
+  {
+    "directory": "/home/goutham/Projects/Personal/Cleopatra/debug",
+    "command": "valac -C --debug --debug --pkg gmime-3.0 --pkg gee-0.8 --pkg gobject-2.0 --pkg glib-2.0 --pkg libvala-0.56 --color=always --directory libcleopatra.so.p --basedir ../ --library cleopatra --header cleopatra.h --vapi ../cleopatra.vapi ../src/Cleopatra.vala ../src/core/InternetAddress.vala ../src/core/Serializable.vala ../src/gmime/GMimeInternetAddress.vala",
+    "file": "../src/Cleopatra.vala",
+    "output": "libcleopatra.so.p/src/Cleopatra.c"
+  },
+  {
+    "directory": "/home/goutham/Projects/Personal/Cleopatra/debug",
+    "command": "ccache cc -Ilibcleopatra.so.p -I. -I.. -I/usr/include/vala-0.56 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/sysprof-4 -I/usr/include/gee-0.8 -I/usr/include/gmime-3.0 -I/usr/include/libmount -I/usr/include/blkid -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -w -O0 -g -fPIC -D_LARGEFILE64_SOURCE -pthread -MD -MQ libcleopatra.so.p/meson-generated_src_Cleopatra.c.o -MF libcleopatra.so.p/meson-generated_src_Cleopatra.c.o.d -o libcleopatra.so.p/meson-generated_src_Cleopatra.c.o -c libcleopatra.so.p/src/Cleopatra.c",
+    "file": "libcleopatra.so.p/src/Cleopatra.c",
+    "output": "libcleopatra.so.p/meson-generated_src_Cleopatra.c.o"
+  },
+  {
+    "directory": "/home/goutham/Projects/Personal/Cleopatra/debug",
+    "command": "ccache cc -Ilibcleopatra.so.p -I. -I.. -I/usr/include/vala-0.56 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/sysprof-4 -I/usr/include/gee-0.8 -I/usr/include/gmime-3.0 -I/usr/include/libmount -I/usr/include/blkid -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -w -O0 -g -fPIC -D_LARGEFILE64_SOURCE -pthread -MD -MQ libcleopatra.so.p/meson-generated_src_core_InternetAddress.c.o -MF libcleopatra.so.p/meson-generated_src_core_InternetAddress.c.o.d -o libcleopatra.so.p/meson-generated_src_core_InternetAddress.c.o -c libcleopatra.so.p/src/core/InternetAddress.c",
+    "file": "libcleopatra.so.p/src/core/InternetAddress.c",
+    "output": "libcleopatra.so.p/meson-generated_src_core_InternetAddress.c.o"
+  },
+  {
+    "directory": "/home/goutham/Projects/Personal/Cleopatra/debug",
+    "command": "ccache cc -Ilibcleopatra.so.p -I. -I.. -I/usr/include/vala-0.56 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/sysprof-4 -I/usr/include/gee-0.8 -I/usr/include/gmime-3.0 -I/usr/include/libmount -I/usr/include/blkid -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -w -O0 -g -fPIC -D_LARGEFILE64_SOURCE -pthread -MD -MQ libcleopatra.so.p/meson-generated_src_core_Serializable.c.o -MF libcleopatra.so.p/meson-generated_src_core_Serializable.c.o.d -o libcleopatra.so.p/meson-generated_src_core_Serializable.c.o -c libcleopatra.so.p/src/core/Serializable.c",
+    "file": "libcleopatra.so.p/src/core/Serializable.c",
+    "output": "libcleopatra.so.p/meson-generated_src_core_Serializable.c.o"
+  },
+  {
+    "directory": "/home/goutham/Projects/Personal/Cleopatra/debug",
+    "command": "ccache cc -Ilibcleopatra.so.p -I. -I.. -I/usr/include/vala-0.56 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/sysprof-4 -I/usr/include/gee-0.8 -I/usr/include/gmime-3.0 -I/usr/include/libmount -I/usr/include/blkid -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -w -O0 -g -fPIC -D_LARGEFILE64_SOURCE -pthread -MD -MQ libcleopatra.so.p/meson-generated_src_gmime_GMimeInternetAddress.c.o -MF libcleopatra.so.p/meson-generated_src_gmime_GMimeInternetAddress.c.o.d -o libcleopatra.so.p/meson-generated_src_gmime_GMimeInternetAddress.c.o -c libcleopatra.so.p/src/gmime/GMimeInternetAddress.c",
+    "file": "libcleopatra.so.p/src/gmime/GMimeInternetAddress.c",
+    "output": "libcleopatra.so.p/meson-generated_src_gmime_GMimeInternetAddress.c.o"
+  },
+  {
+    "directory": "/home/goutham/Projects/Personal/Cleopatra/debug",
+    "command": "valac -C --debug --debug --pkg gmime-3.0 --pkg gee-0.8 --pkg gobject-2.0 --pkg glib-2.0 --pkg libvala-0.56 --color=always --directory tests/cleopatra_test.p --basedir ../tests ../tests/cleopatra_test.vala cleopatra.vapi",
+    "file": "../tests/cleopatra_test.vala",
+    "output": "tests/cleopatra_test.p/cleopatra_test.c"
+  },
+  {
+    "directory": "/home/goutham/Projects/Personal/Cleopatra/debug",
+    "command": "ccache cc -Itests/cleopatra_test.p -Itests -I../tests -I. -I.. -I/usr/include/vala-0.56 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/sysprof-4 -I/usr/include/gee-0.8 -I/usr/include/gmime-3.0 -I/usr/include/libmount -I/usr/include/blkid -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -w -O0 -g -D_LARGEFILE64_SOURCE -pthread -MD -MQ tests/cleopatra_test.p/meson-generated_cleopatra_test.c.o -MF tests/cleopatra_test.p/meson-generated_cleopatra_test.c.o.d -o tests/cleopatra_test.p/meson-generated_cleopatra_test.c.o -c tests/cleopatra_test.p/cleopatra_test.c",
+    "file": "tests/cleopatra_test.p/cleopatra_test.c",
+    "output": "tests/cleopatra_test.p/meson-generated_cleopatra_test.c.o"
+  }
+]

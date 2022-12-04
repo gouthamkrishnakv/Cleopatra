@@ -1,5 +1,12 @@
 # Gitignores
 
+# Meson Directories
+_build/
+build/
+builddir/
+debug/
+release/
+
 # Subprojects:
 # - gmime-3.0
 subprojects/gmime-3.0/

@@ -1,0 +1,245 @@
+Build started at 2022-12-04T23:53:39.673439
+Main binary: /usr/bin/python3
+Build Options: -Dbuildtype=debug -Dbackend=ninja -Dwrap_mode=nodownload
+Python system: Linux
+The Meson build system
+Version: 0.63.3
+Source dir: /home/goutham/Projects/Personal/Cleopatra
+Build dir: /home/goutham/Projects/Personal/Cleopatra/debug
+Build type: native build
+Project name: Cleopatra
+Project version: 0.1
+-----
+Detecting compiler via: cc --version
+compiler returned <Popen: returncode: 0 args: ['cc', '--version']>
+compiler stdout:
+cc (GCC) 12.2.1 20220819 (Red Hat 12.2.1-2)
+Copyright (C) 2022 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+
+compiler stderr:
+
+Running command: cc -E -dM -
+-----
+Detecting linker via: cc -Wl,--version
+linker returned <Popen: returncode: 0 args: ['cc', '-Wl,--version']>
+linker stdout:
+GNU ld version 2.38-25.fc37
+Copyright (C) 2022 Free Software Foundation, Inc.
+This program is free software; you may redistribute it under the terms of
+the GNU General Public License version 3 or (at your option) a later version.
+This program has absolutely no warranty.
+
+linker stderr:
+collect2 version 12.2.1 20220819 (Red Hat 12.2.1-2)
+/usr/bin/ld -plugin /usr/libexec/gcc/x86_64-redhat-linux/12/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/12/lto-wrapper -plugin-opt=-fresolution=/tmp/ccA4TlWM.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 /usr/lib/gcc/x86_64-redhat-linux/12/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/12/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/12/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/12 -L/usr/lib/gcc/x86_64-redhat-linux/12/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/12/../../.. --version -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-redhat-linux/12/crtend.o /usr/lib/gcc/x86_64-redhat-linux/12/../../../../lib64/crtn.o
+
+Sanity testing C compiler: ccache cc
+Is cross compiler: False.
+Sanity check compiler command line: ccache cc sanitycheckc.c -o sanitycheckc.exe -D_FILE_OFFSET_BITS=64
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command: /home/goutham/Projects/Personal/Cleopatra/debug/meson-private/sanitycheckc.exe
+C compiler for the host machine: ccache cc (gcc 12.2.1 "cc (GCC) 12.2.1 20220819 (Red Hat 12.2.1-2)")
+C linker for the host machine: cc ld.bfd 2.38-25
+Running compile:
+Working directory:  /tmp/tmpjmtyv3zy
+Command line:  valac /tmp/tmpjmtyv3zy/testfile.vala -C 
+
+Code:
+ class MesonSanityCheck : Object { }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Vala compiler for the host machine: valac (valac 0.56.3)
+-----
+Detecting compiler via: cc --version
+compiler returned <Popen: returncode: 0 args: ['cc', '--version']>
+compiler stdout:
+cc (GCC) 12.2.1 20220819 (Red Hat 12.2.1-2)
+Copyright (C) 2022 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+
+compiler stderr:
+
+Running command: cc -E -dM -
+-----
+Detecting linker via: cc -Wl,--version
+linker returned <Popen: returncode: 0 args: ['cc', '-Wl,--version']>
+linker stdout:
+GNU ld version 2.38-25.fc37
+Copyright (C) 2022 Free Software Foundation, Inc.
+This program is free software; you may redistribute it under the terms of
+the GNU General Public License version 3 or (at your option) a later version.
+This program has absolutely no warranty.
+
+linker stderr:
+collect2 version 12.2.1 20220819 (Red Hat 12.2.1-2)
+/usr/bin/ld -plugin /usr/libexec/gcc/x86_64-redhat-linux/12/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/12/lto-wrapper -plugin-opt=-fresolution=/tmp/cch7CM0j.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 /usr/lib/gcc/x86_64-redhat-linux/12/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/12/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/12/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/12 -L/usr/lib/gcc/x86_64-redhat-linux/12/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/12/../../.. --version -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-redhat-linux/12/crtend.o /usr/lib/gcc/x86_64-redhat-linux/12/../../../../lib64/crtn.o
+
+Sanity testing C compiler: ccache cc
+Is cross compiler: False.
+Sanity check compiler command line: ccache cc sanitycheckc.c -o sanitycheckc.exe -D_FILE_OFFSET_BITS=64
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command: /home/goutham/Projects/Personal/Cleopatra/debug/meson-private/sanitycheckc.exe
+C compiler for the build machine: ccache cc (gcc 12.2.1 "cc (GCC) 12.2.1 20220819 (Red Hat 12.2.1-2)")
+C linker for the build machine: cc ld.bfd 2.38-25
+Using cached compile:
+Cached command line:   
+
+Code:
+ class MesonSanityCheck : Object { }
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Vala compiler for the build machine: valac (valac 0.56.3)
+Build machine cpu family: x86_64
+Build machine cpu: x86_64
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Target machine cpu family: x86_64
+Target machine cpu: x86_64
+Pkg-config binary for 1 is not cached.
+Pkg-config binary missing from cross or native file, or env var undefined.
+Trying a default Pkg-config fallback at pkg-config
+Found pkg-config: /usr/bin/pkg-config (1.8.0)
+Determining dependency 'libvala-0.56' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --modversion libvala-0.56` -> 0
+0.56.3
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --cflags libvala-0.56` -> 0
+-I/usr/include/vala-0.56 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/sysprof-4 -pthread
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs libvala-0.56` -> 0
+-L/usr/lib64 -lvala-0.56 -lgobject-2.0 -lglib-2.0
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs libvala-0.56` -> 0
+-lvala-0.56 -lgobject-2.0 -lglib-2.0
+Running compile:
+Working directory:  /home/goutham/Projects/Personal/Cleopatra/debug/meson-private/tmpp65ugebj
+Command line:  ccache cc /home/goutham/Projects/Personal/Cleopatra/debug/meson-private/tmpp65ugebj/testfile.c -o /home/goutham/Projects/Personal/Cleopatra/debug/meson-private/tmpp65ugebj/output.exe -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ #include<stdio.h>
+        
+        int main(void) {
+            printf("%ld\n", (long)(sizeof(void *)));
+            return 0;
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Program stdout:
+
+8
+
+Program stderr:
+
+
+Running compile:
+Working directory:  /home/goutham/Projects/Personal/Cleopatra/debug/meson-private/tmpme0lbefs
+Command line:  ccache cc /home/goutham/Projects/Personal/Cleopatra/debug/meson-private/tmpme0lbefs/testfile.c -o /home/goutham/Projects/Personal/Cleopatra/debug/meson-private/tmpme0lbefs/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 --print-search-dirs 
+
+Code:
+ 
+Compiler stdout:
+ install: /usr/lib/gcc/x86_64-redhat-linux/12/
+programs: =/usr/libexec/gcc/x86_64-redhat-linux/12/:/usr/libexec/gcc/x86_64-redhat-linux/12/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/12/:/usr/lib/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/12/../../../../x86_64-redhat-linux/bin/x86_64-redhat-linux/12/:/usr/lib/gcc/x86_64-redhat-linux/12/../../../../x86_64-redhat-linux/bin/
+libraries: =/usr/lib/gcc/x86_64-redhat-linux/12/:/usr/lib/gcc/x86_64-redhat-linux/12/../../../../x86_64-redhat-linux/lib/x86_64-redhat-linux/12/:/usr/lib/gcc/x86_64-redhat-linux/12/../../../../x86_64-redhat-linux/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/12/../../../x86_64-redhat-linux/12/:/usr/lib/gcc/x86_64-redhat-linux/12/../../../../lib64/:/lib/x86_64-redhat-linux/12/:/lib/../lib64/:/usr/lib/x86_64-redhat-linux/12/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/12/../../../../x86_64-redhat-linux/lib/:/usr/lib/gcc/x86_64-redhat-linux/12/../../../:/lib/:/usr/lib/
+
+Compiler stderr:
+ 
+Run-time dependency libvala-0.56 found: YES 0.56.3
+Pkg-config binary for 1 is cached.
+Determining dependency 'glib-2.0' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --modversion glib-2.0` -> 0
+2.74.1
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --cflags glib-2.0` -> 0
+-I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/sysprof-4 -pthread
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs glib-2.0` -> 0
+-L/usr/lib64 -lglib-2.0
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs glib-2.0` -> 0
+-lglib-2.0
+Run-time dependency glib-2.0 found: YES 2.74.1
+Pkg-config binary for 1 is cached.
+Determining dependency 'gobject-2.0' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --modversion gobject-2.0` -> 0
+2.74.1
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --cflags gobject-2.0` -> 0
+-I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/sysprof-4 -pthread
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs gobject-2.0` -> 0
+-L/usr/lib64 -lgobject-2.0 -lglib-2.0
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs gobject-2.0` -> 0
+-lgobject-2.0 -lglib-2.0
+Run-time dependency gobject-2.0 found: YES 2.74.1
+Pkg-config binary for 1 is cached.
+Determining dependency 'gee-0.8' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --modversion gee-0.8` -> 0
+0.20.6
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --cflags gee-0.8` -> 0
+-I/usr/include/gee-0.8 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/sysprof-4 -pthread
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs gee-0.8` -> 0
+-L/usr/lib64 -lgee-0.8 -lgobject-2.0 -lglib-2.0
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs gee-0.8` -> 0
+-lgee-0.8 -lgobject-2.0 -lglib-2.0
+Run-time dependency gee-0.8 found: YES 0.20.6
+Pkg-config binary for 1 is cached.
+Determining dependency 'gmime-3.0' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --modversion gmime-3.0` -> 0
+3.2.7
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --cflags gmime-3.0` -> 0
+-I/usr/include/gmime-3.0 -D_LARGEFILE64_SOURCE -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/sysprof-4 -I/usr/include/libmount -I/usr/include/blkid -pthread
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs gmime-3.0` -> 0
+-L/usr/lib64 -lgmime-3.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs gmime-3.0` -> 0
+-lgmime-3.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0
+Run-time dependency gmime-3.0 found: YES 3.2.7
+Adding test "cleopatra"
+Build targets in project: 2
+
+Cleopatra 0.1
+
+  User defined options
+    backend  : ninja
+    buildtype: debug
+    wrap_mode: nodownload
+
+Found ninja-1.10.2 at /usr/bin/ninja

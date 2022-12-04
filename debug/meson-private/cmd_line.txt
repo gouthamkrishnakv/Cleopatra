@@ -1,0 +1,7 @@
+[options]
+buildtype = debug
+backend = ninja
+wrap_mode = nodownload
+
+[properties]
+
