@@ -13,12 +13,16 @@ namespace Cleopatra.Core {
      *
      *  GMime-based Implementation of @InternetAddress.
      */
-    class GMimeInternetAddress : Object, Serializable <string>, InternetAddress {
+    public class GMimeInternetAddress : Object, Serializable <string>, InternetAddress {
 
-        private GMime.InternetAddressMailbox mailbox;
+        private GMime.InternetAddressMailbox mailbox { get; set; }
 
         public GMimeInternetAddress(string name, string addr) {
             this.mailbox = new GMime.InternetAddressMailbox (name, addr);
+        }
+
+        public GMimeInternetAddress.ofMailbox(GMime.InternetAddressMailbox mailbox) {
+            this.mailbox = mailbox;
         }
 
         public unowned string? get_addr() {
@@ -43,6 +47,10 @@ namespace Cleopatra.Core {
 
         public void set_name(string name) {
             this.mailbox.set_name(name);
+        }
+
+        public GMime.InternetAddressMailbox get_mailbox() {
+            return this.mailbox;
         }
 
         public Gee.Map<string, string> get_serializable_map() {

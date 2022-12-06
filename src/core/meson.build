@@ -7,5 +7,6 @@
 core_sources = files(
   'Header.vala',
   'InternetAddress.vala',
+  'InternetAddressList.vala',
   'Serializable.vala'
 )
