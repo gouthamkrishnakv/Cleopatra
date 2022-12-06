@@ -15,7 +15,7 @@ namespace Cleopatra.Core {
      */
     public class GMimeInternetAddress : Object, Serializable <string>, InternetAddress {
 
-        private GMime.InternetAddressMailbox mailbox { get; set; }
+        private GMime.InternetAddressMailbox mailbox;
 
         public GMimeInternetAddress(string name, string addr) {
             this.mailbox = new GMime.InternetAddressMailbox (name, addr);
