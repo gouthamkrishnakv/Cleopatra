@@ -44,7 +44,7 @@ namespace Cleopatra.Core {
     public class InternetAddressFactory {
         public static InternetAddress get(string name, string address)
                 throws InternetAddressError {
-            return new GMimeInternetAddress(name, address);
+            return new Cleopatra.Core.GMimeInternetAddress(name, address);
         }
     }
 }

@@ -6,4 +6,5 @@
 
 gmime_sources = files(
   'GMimeInternetAddress.vala',
+  'GMimeMessageHeader.vala'
 )

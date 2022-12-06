@@ -47,8 +47,8 @@ namespace Cleopatra.Core {
 
         public Gee.Map<string, string> get_serializable_map() {
             Gee.Map<string, string> address_map = new Gee.HashMap<string, string>();
-            address_map.set("mailbox", this.mailbox.get_addr());
-            address_map.set("displayName", this.mailbox.get_name());
+            address_map.set("name", this.mailbox.get_name());
+            address_map.set("addr", this.mailbox.get_addr());
             return address_map;
         }
     }
