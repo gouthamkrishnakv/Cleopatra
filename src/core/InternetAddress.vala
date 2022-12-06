@@ -42,9 +42,9 @@ namespace Cleopatra.Core {
      *  This factory creates an InternetAddress object depending on the requirements.
      */
     public class InternetAddressFactory {
-        public static InternetAddress get(string name, string address)
+        public static InternetAddress get(string name, string addr)
                 throws InternetAddressError {
-            return new Cleopatra.Core.GMimeInternetAddress(name, address);
+            return new Cleopatra.Core.GMimeInternetAddress(name, addr);
         }
     }
 }
