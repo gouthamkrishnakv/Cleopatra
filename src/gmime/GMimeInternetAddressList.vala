@@ -17,7 +17,7 @@ namespace Cleopatra.Core {
         public void add(InternetAddress ia) {
             if (ia is GMimeInternetAddress) {
                 GMimeInternetAddress gia = ia as GMimeInternetAddress;
-                this.ia_list.add(gia.get_mailbox());
+                this.ia_list.add(gia.mailbox);
             }
         }
 
@@ -26,7 +26,7 @@ namespace Cleopatra.Core {
         public bool contains(InternetAddress ia) {
             if (ia is GMimeInternetAddress) {
                 GMimeInternetAddress gia = ia as GMimeInternetAddress;
-                return this.ia_list.contains(gia.get_mailbox());
+                return this.ia_list.contains(gia.mailbox);
             }
             return false;
         }
@@ -49,7 +49,7 @@ namespace Cleopatra.Core {
         public void insert(int index, InternetAddress ia) {
             if (ia is GMimeInternetAddress) {
                 GMimeInternetAddress gia = ia as GMimeInternetAddress;
-                this.ia_list.insert(index, gia.get_mailbox());
+                this.ia_list.insert(index, gia.mailbox);
             }
         }
 
@@ -58,7 +58,7 @@ namespace Cleopatra.Core {
         public bool remove(InternetAddress ia) {
             if (ia is GMimeInternetAddress) {
                 GMimeInternetAddress gia = ia as GMimeInternetAddress;
-                return this.ia_list.remove(gia.get_mailbox());
+                return this.ia_list.remove(gia.mailbox);
             }
             return false;
         }
@@ -70,7 +70,7 @@ namespace Cleopatra.Core {
         public void set_address(int index, InternetAddress ia) {
             if (ia is GMimeInternetAddress) {
                 GMimeInternetAddress gia = ia as GMimeInternetAddress;
-                this.ia_list.set_address(index, gia.get_mailbox());
+                this.ia_list.set_address(index, gia.mailbox);
             }
         }
 

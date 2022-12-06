@@ -6,9 +6,17 @@
 
 namespace Cleopatra.Core {
     class GMimeHeader : Header, GMime.Header {
-        public string name { get; set; }
-        public string value { get; set; }
+        /* Properties */
+        private string _name;
+        private string _value;
 
-        public GMimeHeader(string name, string value) {}
+        /* Getters/Setters */
+        public string name { get { return _name; } set { _name = value; }}
+        public string value { get { return _name; } set { _value = value; }}
+
+        public GMimeHeader(string name, string value) {
+            this.name = name;
+            this.value = value;
+        }
     }
 }
