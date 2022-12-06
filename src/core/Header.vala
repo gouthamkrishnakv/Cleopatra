@@ -14,7 +14,7 @@ namespace Cleopatra.Core {
 
     public interface HeaderFactory {
         public static Cleopatra.Core.Header get(string name, string value) {
-            return new Cleopatra.Core.GMimeMessageHeader(name, value);
+            return new Cleopatra.Core.GMimeHeader(name, value);
         }
     }
 }
