@@ -25,7 +25,7 @@ namespace Cleopatra.Core {
             this._mailbox = new GMime.InternetAddressMailbox (name, addr);
         }
 
-        public GMimeInternetAddress.ofMailbox(GMime.InternetAddressMailbox mailbox) {
+        public GMimeInternetAddress.of_mailbox(GMime.InternetAddressMailbox mailbox) {
             this._mailbox = mailbox;
         }
 
@@ -61,3 +61,4 @@ namespace Cleopatra.Core {
         }
     }
 }
+

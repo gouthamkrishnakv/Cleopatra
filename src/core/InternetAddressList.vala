@@ -31,9 +31,5 @@ namespace Cleopatra.Core {
         public abstract void set_address(int index, InternetAddress ia);
         public abstract string to_string(bool encode);
     }
-
-    public class InternetAddressListFactory {
-        //  TODO: Come back and finish after writing GMime-based Implementor Class.
-        //  public static InternetAddressList parse(string addresses) {}
-    }
 }
+

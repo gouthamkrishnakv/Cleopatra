@@ -5,7 +5,7 @@
  */
 
 namespace Cleopatra.Core {
-    public interface Header {
+    public interface Header : Object {
         /* Key/Name of the Header */
         public abstract string name { get; set; }
         /* Value of the Header */

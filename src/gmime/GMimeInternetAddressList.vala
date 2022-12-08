@@ -41,7 +41,7 @@ namespace Cleopatra.Core {
             GMime.InternetAddress gia = this.ia_list.get_address(index);
             if (gia is GMime.InternetAddressMailbox) {
                 GMime.InternetAddressMailbox casted_gia = gia as GMime.InternetAddressMailbox;
-                return new GMimeInternetAddress.ofMailbox(casted_gia);
+                return new GMimeInternetAddress.of_mailbox(casted_gia);
             }
             return null;
         }
