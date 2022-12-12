@@ -1,6 +1,4 @@
-# Cleopatra
-#
-# Core Sources
+# Cleopatra: Core Sources
 #
 # Copyright (C) 2022 Goutham Krishna K V
 

@@ -1,6 +1,4 @@
-# Cleopatra
-#
-# GMime Sources
+# Cleopatra: GMime Sources
 #
 # Copyright (C) 2022 Goutham Krishna K V
 

@@ -1,4 +1,5 @@
 # Cleopatra
+# ---------
 # Email Library for Vala
 #
 # Copyright (C) 2022 Goutham Krishna K V

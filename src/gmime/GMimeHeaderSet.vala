@@ -2,9 +2,16 @@
  *  GMimeHeaderList
  *
  *  GMime Implementation for HeaderSet
+ *
+ *  Copyright (C) 2022 Goutham Krishna K V
  */
 
 namespace Cleopatra.Core {
+    /**
+     *  GMimeHeaderList
+     *
+     *  GMime implementations of HeaderSet
+     */
     public class GMimeHeaderSet : Object, HeaderSet {
         public Gee.Map<string, Header> header_set { get; set; }
 

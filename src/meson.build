@@ -1,6 +1,4 @@
-# Cleopatra
-#
-# Cleopatra Sources
+# Cleopatra: Sources
 #
 # Copyright (C) 2022 Goutham Krishna K V
 
